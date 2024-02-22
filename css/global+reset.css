@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: r;
+    src: url("../fonts/Gilroy-Semibold.woff");
+}
+
+body {
+    font-family: r;
+    overflow-x: hidden;
+    
+}
+a {
+    color: #2C2D35;
+}
+h1 {
+    color: #2C2D35;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 150px;
+}
